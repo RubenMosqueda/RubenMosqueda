@@ -1,0 +1,171 @@
+nav .menu_1 li:last-child a{
+  border-bottom: solid 4px var(--color_purple);
+}
+
+/*---------------------------------Content---------------------------------*/
+.content{
+  margin: 0 2rem;
+  font-family: var(--font_text);
+}
+
+.content  h1{
+  font-family: var(--font_h);
+  text-align: center;
+  color: var(--color_black);
+}
+
+.content  h2{
+  font-family: var(--font_h);
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  color: var(--color_black);
+}
+
+.content  p{
+  margin: 0.5rem 0;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color_black);
+}
+
+.content .accent {
+  color: var(--color_purple);
+}
+
+.separator{
+  margin: 2rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator hr{
+  width: 50%;
+}
+
+.separator img{
+  width: 30px;
+  height: auto;
+  margin: 0 1rem;
+}
+
+.content .btn{
+  font-size: 1.2rem;
+  font-family: var(--font_h);
+  color: var(--color_purple);
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border: solid 4px var(--color_pink);
+  border-radius: 18px;
+  box-shadow: 0 0 6px 7px rgba(106,106,106,0.3);
+  background-color: var(--color_green);
+}
+
+.btn:active{
+  box-shadow: inset 0 0 6px 7px rgba(106,106,106,0.35);
+}
+
+.section_1 .btn{
+  width: 9rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.section_6 .btn{
+  width: 15.5rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+section img{
+  display: block;
+  width: 20rem;
+  margin: 2rem auto;
+}
+
+.section_1 .commisions{
+  width: 15.8rem;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem auto;
+}
+
+.section_1 .commisions img{
+  width: 1.5rem;
+  margin: 0 1rem;
+}
+
+.section_1 .spacer{
+  margin: 2rem 0;
+}
+
+.section_2 .spacer{
+  margin: 2rem 0 0 0;
+}
+
+.section_3 .spacer{
+  margin: 2rem 0 0 0;
+}
+
+.section_4 .spacer{
+  margin: 2rem 0 0 0;
+}
+.section_5 .spacer{
+  margin: 2rem 0 0 0;
+}
+
+.section_5 .comment{
+  font-size: .7rem;
+}
+
+/*---------------------------------Content---------------------------------*/
+
+/*---------------------------------Breakpoint-------------------------------*/
+@media (min-width: 880px) {
+
+  .content{
+    margin: 0 5rem;
+  }
+
+  .section_2 img{
+    width: 70%;
+    margin: auto;
+  }
+
+  .section_3 img{
+    width: 70%;
+    margin: auto;
+  }
+
+  .section_4 img{
+    width: 50%;
+    margin: auto;
+  }
+
+  .section_5 img{
+    width: 50%;
+    margin: auto;
+  }
+
+  .section_col{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 3rem;
+    margin: auto;
+  }
+
+  .content .section_content h2{
+    text-align: left;
+  }
+
+  .content .section_content p{
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+}

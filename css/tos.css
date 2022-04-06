@@ -1,0 +1,39 @@
+nav .menu_2 li:first-child a{
+  border-bottom: solid 4px var(--color_purple);
+}
+
+/*---------------------------------Content---------------------------------*/
+.content{
+  margin: 0 2rem;
+  font-family: var(--font_text);
+}
+
+.content  h1{
+  color: var(--color_black);
+  text-align: center;
+}
+
+.content  h2{
+  color: var(--color_black);
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+.content  p{
+  margin: 0.75rem 0;
+  color: var(--color_black);
+}
+
+.centerText{
+  text-align: center;
+}
+/*---------------------------------Content---------------------------------*/
+
+/*---------------------------------Breakpoint-------------------------------*/
+@media (min-width: 880px) {
+
+  .content{
+    margin: 0 5rem;
+  }
+
+}

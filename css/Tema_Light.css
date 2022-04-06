@@ -1,0 +1,14 @@
+:root {
+  /*colors palette*/
+  --color_pink: #FBCCD1;
+  --color_green: #92FD70;
+  --color_green_btn: #B5FF9E;
+  --color_purple: #C684FF;
+  --color_purple_btn: #a843ff;
+  --color_white: #ECECEC;
+  --color_black: #6A6A6A;
+
+  --font_h: 'Fredoka One', Arial, Helvetica, sans-serif;
+  --font_text: 'Comfortaa', Arial, Helvetica, sans-serif;
+
+}

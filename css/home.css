@@ -1,0 +1,173 @@
+nav .menu_1 li:first-child a{
+  border-bottom: solid 4px var(--color_purple);
+  border
+}
+
+/*---------------------------------Content---------------------------------*/
+.content{
+  margin: 0 4rem;
+  font-family: var(--font_text);
+  font-weight: 700;
+}
+
+.content  p{
+  margin: 0.75rem 0;
+  color: var(--color_black);
+}
+
+.content .accent {
+  color: var(--color_purple);
+}
+
+.aboutImg{
+  display: block;
+  margin: 2rem auto;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.separator{
+  margin: 2rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator hr{
+  width: 50%;
+}
+
+.separator img{
+  width: 30px;
+  height: auto;
+  margin: 0 1rem;
+}
+
+.content .btn{
+  font-size: 1.2rem;
+  font-family: var(--font_h);
+  color: var(--color_purple);
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border: solid 4px var(--color_pink);
+  border-radius: 18px;
+  box-shadow: 0 0 6px 7px rgba(106,106,106,0.3);
+  background-color: var(--color_green);
+}
+
+.btn:active{
+  box-shadow: inset 0 0 6px 7px rgba(106,106,106,0.35);
+}
+
+.section_1{
+  text-align: center;
+}
+
+.section_2 .btn{
+  width: 9rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.section_2 .commisions{
+  width: 15.8rem;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem auto;
+}
+
+.section_2 .commisions img{
+  width: 1.5rem;
+  margin: 0 1rem;
+}
+
+.content a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color_black);
+}
+
+.content a img{
+  width: 30px;
+  margin: 0 1rem;
+}
+
+.content .section_1 a:hover{
+  color: var(--color_green);
+}
+
+.content .section_3 a{
+  justify-content: left;
+}
+
+.section_3 img{
+  display: block;
+  width: 15rem;
+  margin: 2rem auto;
+}
+
+.section_3{
+  width: 18rem;
+  margin: auto;
+}
+
+.content .section_3 a:hover{
+  color: var(--color_green);
+}
+
+/*---------------------------------Content---------------------------------*/
+
+/*---------------------------------Breakpoint-------------------------------*/
+@media (min-width: 880px) {
+
+  .content .section_col{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .content .section_1{
+    flex-direction: row-reverse;
+  }
+
+  .section_1 .section_content{
+    text-align: right;
+    margin-top: 2rem;
+    padding-right: 6rem;
+  }
+
+  .section_1 .aboutImg{
+    align-self: center;
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+  }
+
+  .section_3 .aboutImg2{
+    align-self: center;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .content .section_col{
+    width: 75%;
+  }
+
+  .separator{
+    width: 70%;
+    margin: 2rem auto;
+  }
+
+}

@@ -1,0 +1,167 @@
+nav .menu_1 li:nth-child(2) a{
+  border-bottom: solid 4px var(--color_purple);
+}
+
+/*---------------------------------Content---------------------------------*/
+.content{
+  margin: 0 2rem;
+  font-family: var(--font_text);
+}
+
+.content  h1{
+  color: var(--color_black);
+  text-align: center;
+}
+
+.content  h2{
+  font-family: var(--font_h);
+  font-size: 2rem;
+  color: var(--color_black);
+}
+
+.content  p{
+  margin: 0.75rem 0;
+  color: var(--color_black);
+}
+
+section{
+  text-align: center;
+}
+
+.galerySeparator{
+  display: none;
+}
+
+.section_1 h1{
+  margin-bottom: 2rem;
+}
+
+.section_1 p{
+  margin-top: 1.5rem;
+}
+
+.section_1 span{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.content .section_1 a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color_black);
+}
+
+.content .section_1 a img{
+  width: 30px;
+  margin: 0 1rem;
+}
+
+.content .section_1 a:hover{
+  color: var(--color_green);
+}
+
+.section_2{
+  margin-top: 2rem;
+}
+
+.section_2 h2{
+  margin: 1rem 0;
+}
+
+.section_2 img{
+  width: 25rem;
+}
+
+.section_3{
+  margin-top: 2rem;
+}
+
+.section_3 img{
+  margin: 1rem 0;
+  width: 25rem;
+}
+
+.separator{
+  margin: 2rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator hr{
+  width: 50%;
+}
+
+.separator img{
+  width: 30px;
+  height: auto;
+  margin: 0 1rem;
+}
+
+/*---------------------------------Content---------------------------------*/
+
+/*---------------------------------Breakpoint-------------------------------*/
+@media (min-width: 800px) {
+
+  .galery{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 8fr 1fr 8fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .content h2{
+    text-align: left;
+    margin-left: 5rem;
+  }
+
+  .content .galery h2{
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .separator{
+    display: none;
+  }
+
+  .galerySeparator{
+    display: block;
+  }
+
+  .hrVertical{
+    width: 1px;
+    height: 100%;
+    margin: auto;
+  }
+
+ .content  .galery .iconSeparator{
+    width: 30px;
+  }
+
+  .section_2 .galery img{
+    margin: 0;
+    width: 20rem;
+  }
+
+  .section_3 .galery img{
+    margin: auto;
+    width: 20rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .content{
+    margin: 0 12rem;
+    font-family: var(--font_text);
+  }
+}
